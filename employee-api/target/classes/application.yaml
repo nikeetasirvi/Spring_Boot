@@ -1,0 +1,12 @@
+server:
+  port: 8081
+spring:
+  datasource:
+    url: jdbc:h2:mem:emp_db
+    username: emp
+    password: emp
+  jpa:
+    show-sql: true
+    properties:
+      hibernate:
+        format-sql: true
